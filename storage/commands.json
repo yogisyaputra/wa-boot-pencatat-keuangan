@@ -1,0 +1,7 @@
+{
+  "commands": [
+    "/masuk -> Menyimpan pemasukan",
+    "/keluar -> Menyimpan pengeluaran",
+    "/saldo -> Menampilkan saldo"
+  ]
+}

@@ -1,0 +1,20 @@
+mkdir wa-bot-pengeluaran
+cd wa-bot-pengeluaran
+npm init -y
+apt update
+apt install -y \
+  chromium-browser \
+  libatk1.0-0t64 \
+  libatk-bridge2.0-0 \
+  libcups2t64 \
+  libx11-xcb1 \
+  libxcomposite1 \
+  libxdamage1 \
+  libxrandr2 \
+  libxss1 \
+  libxtst6 \
+  libnss3 \
+  libasound2t64 \
+  libgtk-3-0t64 \
+  libglib2.0-0t64
+npm install whatsapp-web.js qrcode-terminal googleapis
